@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/smoke_contain"
+    tools:context="com.jadyn.rocketdemo.SmokeActivity">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smoke_iv_bottom"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/desktop_smoke_m"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/smoke_iv_top"
+        android:src="@mipmap/desktop_smoke_t"
+        android:layout_above="@id/smoke_iv_bottom"
+        />
+
+</RelativeLayout>
